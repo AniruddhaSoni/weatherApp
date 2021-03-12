@@ -34,10 +34,12 @@ body {
     align-self: center;
     width: 100%;
     text-align: center;
+    align-items: center;
 }
 
 .weatherSearch input,
 .weatherSearch button {
+    box-sizing: border-box;
     padding: 0.75rem;
     border: none;
     margin: 0;
@@ -48,6 +50,9 @@ body {
 
 .weatherSearch input {
     width: 80%;
+    font-size: 16px;
+}
+.weatherSearch button{
     font-size: 16px;
 }
 
