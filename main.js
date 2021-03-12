@@ -48,10 +48,10 @@ function displayData (response) {
         description.innerText = `Description: ${response.weather[0].description}`;
 
         const maxTemp =document.querySelector(".max_temp");
-        maxTemp.innerText = `${response.main.temp_max} &#176;`;
+        maxTemp.innerText = `${response.main.temp_max}`;
 
         const minTemp =document.querySelector(".min_temp");
-        minTemp.innerText = `${response.main.temp_min} &#176;`
+        minTemp.innerText = `${response.main.temp_min}`
 
         const weatherIcon = document.querySelector(".weather-icon");
         const iconURL = "http://openweathermap.org/img/w/";
